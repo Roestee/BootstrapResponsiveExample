@@ -11,7 +11,13 @@
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
-    <style></style>
+    <style>
+         @media screen and (max-width:576px) {
+            #deneme button{
+                margin: 0;
+            }
+        }
+    </style>
   </head>
   <body>
     <nav class="navbar navbar-dark bg-dark fixed-top">
@@ -96,7 +102,7 @@
         </div>
       </div>
       <div class="row text-center">
-        <div class="col">
+        <div id="deneme" class="col">
           <button type="button" class="btn btn-dark mx-2">Oyun</button>
           <button type="button" class="btn btn-dark mx-2">Gündem</button>
           <button type="button" class="btn btn-dark mx-2">Anime</button>
